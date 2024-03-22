@@ -1,0 +1,21 @@
+body {
+    background-image: url("mark.png");
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+p {
+    border-radius: 8px;
+    background-color:coral;
+}
+
+.user1 {
+    background-color:coral;
+}
+
+.user2 {
+    background-color:cornflowerblue;
+}
