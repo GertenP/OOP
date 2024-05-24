@@ -1,0 +1,70 @@
+.float-container {
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.float-child {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+    width: 50%;
+    float: left;
+    padding: 20px;
+    border: 5px solid red;
+    border-radius: 10px;
+}  
+
+img {
+    width: 20px;
+}
+
+body {
+    background-image: url(taust.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Kohandatud kursor */
+    cursor: url('https://purepng.com/public/uploads/large/purepng.com-chuck-norrischuck-norrischucknorriscarlos-ray-norrisamerican-martial-artistactorproducerscreenwriter-17015280222722uexk.png');
+}
+
+h1 {
+    margin-top: 50px;
+    margin-left: 50px;
+    color: whitesmoke;
+    text-shadow: 
+        1px 1px 0 red, 
+       -1px -1px 0 red, 
+        1px -1px 0 red, 
+       -1px 1px 0 red,
+        1px 0 0 red,
+       -1px 0 0 red,
+        0 1px 0 red,
+        0 -1px 0 red;
+}
+
+#custom-cursor {
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    background-image: url('kursor.png'); /* Asenda kursor.png oma kohandatud kursori pildiga */
+    background-size: cover;
+    pointer-events: none; /* See väldib kursori kattumist teiste elementidega */
+    z-index: 9999; /* Veendume, et kohandatud kursor oleks kõigi teiste elementide ees */
+    transition-duration: 0.2s;
+}
+
+
+button {
+    margin-top: 300px;
+    margin-left: -650px;
+    width: 650px;
+    height: 60px;
+    background-color: white;
+    border-radius: 5px;
+    border-color: red;
+    transition-duration: 0.2s;
+}
+
+button:hover {
+    background-color: red;
+    color: white;
+    border-color: white;
+}
