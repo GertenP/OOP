@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 10px;
+    height: 80px;
+}
+
+header img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 30px;
+    border: 5px solid lightblue;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 20px;
+    position: absolute;
+    top: 40%;
+    
+}
+
+#vasakul, #paremal {
+    display: flex;
+    gap: 50px;
+}
+
+#vasakul {
+    margin-left: 80px;
+}
+
+#paremal {
+    margin-left: auto;
+    margin-right: 80px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ddd;
+}
+
+#moto h1 {
+
+    text-align: center;
+}
+
+#moto {
+    background-image: url(taust1.JPG);
+    height: 500px;
+    width:auto;
+    background-repeat: no-repeat;
+}
